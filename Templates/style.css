@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+main{
+    margin: 20px;
+    flex: 1;
+}
+header{
+    background-color: hsl(0, 0%, 86% );
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: hsl(0, 0%, 15% );
+    height: 50px;
+
+}
+aside{
+    width: 33%;
+    float: left;
+    padding: 20px;
+
+}
+section{
+    width:33%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+article{
+    width:33%;
+    float: left;
+    padding: 10px;
+    margin-right: 0px;
+    text-align: center;
+}
+footer{
+    display:block;
+    margin-top: 420px;
+    clear:both;
+    width:100%;
+    background-color: hsl(0, 0%, 86% );
+    text-align: center;
+    padding: 25px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10% );
+}
+.navbar li{
+    float: left;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header>
+        <h2>Food Order</h2>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="home.html">Login</a></li>
+            <li><a href="index.html">Order</a></li>
+            <li><a href="htt.html">About</a></li>
+
+            
+        </ul>
+
+    </nav>
+    <main>
+        <div class="box1">
+            <form action="">
+                <h1>Order Details</h1>
+                <div class = "input-box">
+                    <input type="text" id ="orderid" placeholder="Order Id">
+                    <input type="text" id="customernames" placeholder="Customer Name">
+                    <input type="text" id="foodItem" placeholder="Food Item">
+                    <input type="number" id="quantity" placeholder="Quantity">
+                    <button type = "button" id="addOrder">Add Order</button>
+                </div>
+                <!--div class="dashboard">
+                    <div class="header">Order ID</div>
+                    <div class="header">Customer Name</div>
+                    <div class="header">Food Item</div>
+                    <div class="header">Quantity</div>
+                </div!-->
+            </form>
+        </div>
+        <table id ="orderTable">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Food</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+    <script src="../static/detail.js"></script>
+
+
+</body>
+</html>
